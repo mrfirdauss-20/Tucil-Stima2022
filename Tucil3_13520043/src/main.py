@@ -16,7 +16,7 @@ final = Node(0,[],finalMat)
 print("========================================================")
 fileName = input("\tMasukkan Nama File Data Puzzle: ")
 print("========================================================")
-f = open(fileName, "r")
+f = open("tes/"+fileName, "r")
 arr = []
 txt= f.readlines()
 for i in txt:
